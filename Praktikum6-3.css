@@ -1,0 +1,46 @@
+body {
+    background-color: plum;
+    display: flex;
+}
+
+header {
+    background-color: powderblue;
+    margin: 2em;
+    width: 600px;
+    height: 70px;
+}
+
+aside {
+    background-color: royalblue;
+    width: 200px;
+    height: 300px;
+}
+
+article {
+    background-color: rgb(250, 67, 67);
+    width: 430px;
+    height: 300px;
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer {
+    background-color: powderblue;
+    margin: 2em;
+    width: 600px;
+    height: 70px;
+}
+
+img {
+    width: 90px;
+    height: 70px;
+    margin: 1em;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
